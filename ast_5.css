@@ -1,0 +1,25 @@
+#title{
+    font-family : "times new roman";
+    font-size: 20px;
+}
+.question{
+    background-color: aqua;
+    display: inline-block;
+    width: 150px;
+    text-align: right;
+    padding-right: 10px;
+    margin-bottom: 5px;
+}
+#year{
+    width: 30px;
+}
+.button-row{
+    margin-top: 1px;
+}
+.button-row::before{
+    background-color: aqua;
+    content: "";
+    display: inline-block;
+    width: 150px;
+    margin-right: 10px;
+}
